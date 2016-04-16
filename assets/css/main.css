@@ -2240,8 +2240,9 @@
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
-		font-weight: 600;
+		font-weight: 700;
 		height: 3.125em;
+		width: 18em;
 		letter-spacing: 0.225em;
 		line-height: 3.125em;
 		padding: 0 2.75em;
@@ -3815,10 +3816,22 @@
 
 	/*Personal css*/
 	li.cowntdown {
-		width: 200px;
+		width: 300px;
 		margin: auto;
 	}
 
 	h2.headFont {
+		font-family: Arabella;		
+	}
+	h4.headFont {
+		font-family: Arabella;		
+	}
+	h5.headFont {
+		font-family: Arabella;		
+	}
+	p.headFont {
+		font-family: Arabella;		
+	}
+	a.headFont {
 		font-family: Arabella;		
 	}
