@@ -74,8 +74,8 @@
 													}
 												},
 												format: function(r){
-													var out="Залишилось днів: ";
-													if(r.d != 0){out += r.d +" "+((r.d==1)?"день":"")+", ";}
+													var out="Вже завтра!";
+													if(r.d != 0){out += r.d +" "+((r.d==1)?"":"")+"";}
 
 													return out.substr(0,out.length-2);
 												},
